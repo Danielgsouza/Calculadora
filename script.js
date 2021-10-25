@@ -23,7 +23,6 @@ const calculate = () => {
 
 const updateDisplay = (number) => {
     if (newNumber) {
-       // console.log(numbers.target.value)
         display.textContent = number.toLocaleString('BR')
         newNumber = false
     }else{
