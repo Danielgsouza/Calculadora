@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main>
+        <section id="result">
+            <p id="display">
+              
+            </p>
+        </section>
+        <section>
+            <button type="button" value="AC" id="clear-screen">CE</button>
+            <button type="button" value="C" id="back">C</button>
+            <button type="button" value="%" id="btn-porcent"><i class="fas fa-percentage"></i></button>
+            <button type="button" value="/" id="split-operation"><i class="fas fa-divide"></i></button>
+        </section>
+        <section>
+            <button type="button" value="7" id="tecla7">7</button>
+            <button type="button" value="8" id="tecla8">8</button>
+            <button type="button" value="9" id="tecla9">9</button>
+            <button type="button" value="*" id="multiplication-operation"><i class="fas fa-times"></i></button>
+        </section>
+        <section>
+            <button type="button" value="4" id="tecla4">4</button>
+            <button type="button" value="5" id="tecla5">5</button>
+            <button type="button" value="6" id="tecla6">6</button>
+            <button type="button" value="-" id="subtract-operation"><i class="fas fa-minus"></i></button>
+        </section>
+        <section>
+            <button type="button" value="1" id="tecla1">1</button>
+            <button type="button" value="2" id="tecla2">2</button>
+            <button type="button" value="3" id="tecla3">3</button>
+            <button type="button" class="color" value="+" id="sum-operation"><i class="fas fa-plus"></i></button>
+        </section>
+        <section>
+            <button type="button" value="0" id="tecla0">0</button>
+            <button type="button" value="," id="decimal">,</button>
+            
+            <button type="button" value="+/-" id="change-signal">+/-</button>
+            <button type="button" value="=" id="btn-equal"><i class="fas fa-equals"></i></button>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

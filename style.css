@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+body{
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/fundo-de-quadro-de-matematica_1995-357.jpg')
+}
+
+h1{
+    margin: 40px 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+main{
+    width: 250px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    background-color: #eaedef;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* background-color: wheat;*/
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#result{
+    border: solid ;
+    display: block;
+    height: 40px;
+    background-color: white;
+    margin: 40px 0;
+}
+
+p{
+    
+    text-align: end;
+    font-size: 2.5em;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 50px;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+button{
+    width: 50px;
+    border-radius: 50%;
+    font: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+#sum-operation{
+    background-color: rgba(62, 250, 225, 98);
+}
+#subtract-operation{
+    background-color: rgba(250, 211, 37, 98);
+}
+
+#multiplication-operation{
+    background-color: rgba(195, 94, 250, 98);
+}
+
+#split-operation{
+    background-color: rgba(84, 134, 250, 98);
+}
+#btn-porcent{
+    background-color: rgba(100, 173, 124, 68);
+}
+
+#btn-equal{
+    background-color:#000;
+    color: #fff;
+}
